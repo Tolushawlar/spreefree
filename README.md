@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <img src="./src/assets/circles.png" height="250px" align="right"/>
 
 <h1 align="center">BOOK STORE USING REACTJS </h1>
@@ -69,3 +70,7 @@ See the section about [deployment](#deployment) for more information.
 
 </p>
 
+=======
+# spreefree
+book website
+>>>>>>> f4a99c52a2c2243fe30c99c2086c97a1715035bc
