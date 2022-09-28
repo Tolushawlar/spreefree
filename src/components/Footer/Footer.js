@@ -10,7 +10,7 @@ const Footer = () => {
           <MDBCol md="3" lg="3" xl="4" className="mx-auto mt-3">
             <h6 className="text-uppercase mb-4 font-weight-bold">
             <img src={logo} alt="Book Store App" height="50px" />
-               <strong>Book-IT</strong>              
+               <strong>SpreeFree</strong>              
             </h6>
             <p>
             This is a React bookstore application in which, user can view available books and its related information and also I can add them to my spreeList for later reading. Built this application to develop my ability to use multireact components and also how to consume API's in react. Used the ecommerce.js API to host book information
