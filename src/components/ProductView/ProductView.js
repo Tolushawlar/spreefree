@@ -16,7 +16,7 @@ const ProductView = () => {
     const fetchProduct = async (id) => {
         const response = await commerce.products.retrieve(id);
         console.log({ response });
-        const { name, price, media, quantity, description,image } = response;
+        const { name, price, quantity, description,image } = response;
         setProduct({
           name,
           quantity,
@@ -42,12 +42,12 @@ const ProductView = () => {
               <Typography variant="h2"><b>{product.name}</b></Typography>
               <hr />
               <Typography variant="p" dangerouslySetInnerHTML={createMarkup(product.description)} />
-              <Typography variant="h3" color="secondary" >Price: <b> {product.price} </b> </Typography>
+              {/*<Typography variant="h3" color="secondary" >Price: <b> {product.price} </b> </Typography>*/}
               <br/>
               <Grid container spacing={4}>
                 <Grid item xs={12}>
                   <Button size="large" className="custom-button" component={Link} to='/' >
-                     Continue Shopping
+                     Continue Spreeing
                   </Button>
                 </Grid>
               </Grid>

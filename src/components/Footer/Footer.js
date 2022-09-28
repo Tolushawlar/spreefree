@@ -1,6 +1,6 @@
 import React from "react";
 import { MDBCol, MDBContainer, MDBRow, MDBFooter } from "mdbreact";
-import logo from '../../assets/circles.png';
+import logo from '../../assets/newbook.png';
 
 const Footer = () => {
   return (
@@ -13,22 +13,20 @@ const Footer = () => {
                <strong>Book-IT</strong>              
             </h6>
             <p>
-            Book-IT is an online React web application where the customer can purchase books online.
-             Through this book store the users can search for a book by its title and
-             later can add to the shopping cart and finally purchase using credit card transaction.
+            This is a React bookstore application in which, user can view available books and its related information and also I can add them to my spreeList for later reading. Built this application to develop my ability to use multireact components and also how to consume API's in react. Used the ecommerce.js API to host book information
             </p>
           </MDBCol>
           <hr className="w-100 clearfix d-md-none" />
           <MDBCol md="2" lg="2" xl="2" className="mx-auto mt-3">
-            <h6 className="text-uppercase mb-4 font-weight-bold"><strong>Products</strong></h6>
+            <h6 className="text-uppercase mb-4 font-weight-bold"><strong>Projects</strong></h6>
             <p>
-              <a href="#">Book-IT</a>
+              <a href="netlify.spreefree.app">SpreeFree</a>
             </p>
             <p>
-              <a href="https://akshatjalan.github.io/akshat/">Portfolio</a>
+              <a href="https://bamzi.ivyarc.com/">Bamzi</a>
             </p>
             <p>
-              <a href="https://akshatjalan.github.io/haggele">Gaming Website</a>
+              <a href="https://intellhigts.netlify.app/">Portfolio</a>
             </p>
           </MDBCol>
 
@@ -36,13 +34,13 @@ const Footer = () => {
           <MDBCol md="4" lg="3" xl="3" className="mx-auto mt-3">
             <h6 className="text-uppercase mb-4 font-weight-bold"><strong>Contact</strong></h6>
             <p>
-              <i className="fa fa-envelope mr-3" /> jalanakshat2@gmail.com
+              <i className="fa fa-envelope mr-3" /> oluwasolaowoyemi.i@gmail.com
             </p>
             <p>
-              <i className="fa fa-phone mr-3" /> +91 6377518516
+              <i className="fa fa-phone mr-3" /> +234 8109951960
             </p>
             <p>
-              <i className="fa fa-home mr-3" /> VIT vellore, Tamil Nadu
+              <i className="fa fa-home mr-3" /> Nigeria
             </p>
           </MDBCol>
         </MDBRow>
@@ -51,30 +49,30 @@ const Footer = () => {
           <MDBCol md="8" lg="8">
             <p className="text-center text-md-left grey-text">
               &copy; {new Date().getFullYear()} Made by
-              <a href="#"> Akshat Jalan </a>
+              <a href="#"> Olusola Itunu </a>
             </p>
           </MDBCol>
           <MDBCol md="4" lg="4" className="ml-lg-0">
             <div className="text-center text-md-right">
               <ul className="list-unstyled list-inline">
               <li className="list-inline-item">
-                  <a className="btn-floating btn-sm rgba-white-slight mx-1" href="http://github.com/Akshatjalan">
+                  <a className="btn-floating btn-sm rgba-white-slight mx-1" href="https://github.com/Tolushawlar">
                     <i className="fab fa-github" />
                   </a>
                 </li>
                 <li className="list-inline-item">
-                  <a className="btn-floating btn-sm rgba-white-slight mx-1" href='https://www.linkedin.com/in/akshat-jalan/'>
+                  <a className="btn-floating btn-sm rgba-white-slight mx-1" href='https://www.linkedin.com/in/olusola-itunu-082783128/'>
                     <i className="fab fa-linkedin-in" />
                   </a>
                 </li>
                 <li className="list-inline-item">
-                  <a className="btn-floating btn-sm rgba-white-slight mx-1" href='https://www.facebook.com/akshat.jalan13/'>
+                  <a className="btn-floating btn-sm rgba-white-slight mx-1" href='https://web.facebook.com/owoyemi.holushawlar'>
                     <i className="fab fa-facebook-f" />
                   </a>
                 </li>
                 <li className="list-inline-item">
-                  <a className="btn-floating btn-sm rgba-white-slight mx-1" href='https://www.instagram.com/akshatxjalan/'>
-                    <i className="fab fa-instagram" />
+                  <a className="btn-floating btn-sm rgba-white-slight mx-1" href='https://twitter.com/holushawlae'>
+                    <i className="fab fa-twitter" />
                   </a>
                 </li>
               </ul>

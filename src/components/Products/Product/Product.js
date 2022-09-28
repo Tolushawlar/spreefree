@@ -20,13 +20,13 @@ const Product = ({product, onAddToCart}) => {
             {product.name}
             </Typography>
             <Typography variant="h6" color="secondary">
-              ₹<b>{product.price.formatted}</b> 
+              {/*₹<b>{product.price.formatted}</b> */}
             </Typography>
           </div>
         </CardContent>
         <CardActions disableSpacing className={classes.cardActions}>
           <Button variant="contained" className={classes.button} endIcon={<AddShoppingCart />} onClick={() => onAddToCart(product.id, 1)} >
-            <b>ADD TO CART</b>
+            <b>ADD SPREE LIST</b>
           </Button>
         </CardActions>
         </Card>
